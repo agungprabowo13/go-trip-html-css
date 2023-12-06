@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+section{
+    padding: 50px 100px;
+}
+.tombol{
+    background-color: #4564E5;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 10px;
+}
+.subtitle{
+    color: #42C5B6;
+    font-weight: 600;
+}
+.title {
+    font-size: 36px;
+    color: #1C1A2F;
+}
+.description{
+    color: #898989;
+}
+
+/* Navigasi */
+nav{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a {
+    color: #303030;
+}
+nav ul li a:hover{
+    color: #3685FB;
+}
+
+/* Hero */
+#hero{
+    background-color: #FBFBFB;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}   
+#hero h1{
+    font-size: 54px;
+    font-weight: 700;
+    color: #1C1A2F;
+}
+
+/* Service */
+#service{
+    text-align: center;
+}
+#service .description{
+    max-width: 540px;
+    margin: 0 auto;
+}
+.service-content {
+    display: flex;
+}
+.service-content h2{
+    color: #42C5B6;
+    font-size: 24px;
+}
